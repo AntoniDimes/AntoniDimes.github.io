@@ -75,3 +75,4 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Failed to fetch team schedule" }, { status: 500 })
   }
 }
+
