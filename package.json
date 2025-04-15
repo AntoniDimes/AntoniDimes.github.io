@@ -10,7 +10,7 @@
     "deploy": "npm run build && npm run export && gh-pages -d out"
   },
   "dependencies": {
-    "next": "^14.0.0",   // or whatever version you're using
+    "next": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
