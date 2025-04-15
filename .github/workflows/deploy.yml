@@ -17,15 +17,13 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        working-directory: ./p_project
         run: npm ci
 
       - name: Build
-        working-directory: ./p_project
         run: npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: p_project/out
+          folder: out
           branch: gh-pages
