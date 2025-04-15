@@ -4,7 +4,7 @@ const nextConfig = {
   // We'll only use it for production builds
   ...(process.env.NODE_ENV === 'production' ? { 
     output: 'export',
-    basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
+    basePath: process.env.NODE_ENV === 'production' ? '/MainRepo/p_project' : '',
     images: {
       unoptimized: true,
     }
